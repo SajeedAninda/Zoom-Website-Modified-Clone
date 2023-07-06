@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER PART  */
+header {
+    height: 10vh;
+    width: 100%;
+    border-bottom: 2px solid rgba(182, 174, 174, 0.103);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 70%;
+}
+
+.header-left img {
+    width: 110px;
+    margin: 20px 20px 20px 50px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    margin: 20px 50px 20px 0px;
+    width: 30%;
+    gap: 5px;
+}
+
+.header-right p {
+    font-size: 0.95rem;
+    margin-top: 2px;
+}
+
+.header-right .links a {
+    margin-right: 15px;
+    color: #0b51db;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.header-right .links a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN PART  */
+main {
+    display: flex;
+}
+
+.main-left {
+    width: 40%;
+    height: 90vh;
+    background-color: #f7f9fa;
+    padding-left: 50px;
+}
+
+.main-left .main-left-top img {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.main-left-bottom {
+    background-color: white;
+    padding: 32px;
+    box-shadow: 0 4px 8px rgba(19, 22, 25, .1), 0 2px 4px rgba(19, 22, 25, .1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-align: left;
+    margin: 20px 50px 20px 5px;
+}
+.main-left-bottom:hover{
+    box-shadow: 5px 20px 20px rgba(19, 22, 25, .1), 5px 20px 20px rgba(19, 22, 25, .1);
+    transition: 0.2s;
+}
+
+.main-left-bottom h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    color: rgb(26, 24, 24);
+}
+
+.main-left-bottom ul li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+.main-left-bottom ul li img {
+    width: 15px;
+}
+
+.main-right {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-right-heading h1{
+    margin-top: 70px;
+    letter-spacing: 0.15rem;
+    color: rgb(26, 24, 24);
+    font-size: 2.3rem;
+}
+.main-right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="email"]{
+    width: 70%;
+    margin: 20px;
+    padding: 13px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+input[type="email"]:hover{
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.808);
+    transition: 0.2s;
+ }
+input[type="email"]::placeholder{
+    font-size: 1rem;
+}
+input[type="password"]{
+    width: 70%;
+    margin: 5px 20px 20px 20px;
+    padding: 13px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+input[type="password"]:hover{
+   box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.808);
+   transition: 0.2s;
+}
+input[type="password"]::placeholder{
+    font-size: 1rem;
+}
+.main-right-section button{
+    width: 70%;
+    margin: 5px 20px 20px 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6e76801e;
+    font-size: 1rem;
+    color: rgb(119, 115, 115);
+    cursor: pointer;
+}
+.main-right-section button:hover{
+    background-color: #0b51db;
+    color: white;
+    transition: 0.3s;
+}
+.main-right-section p{
+    width: 70%;
+    text-align: left;
+    padding-right: 15px;
+    font-size: 0.9rem;
+    color: grey;
+}
+.spanner{
+    color: #0b51db;
+}
+.spanner:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line p {
+    width: 100%; 
+    text-align: center; 
+    color: grey; 
+    line-height: 0.1em;
+    margin: 20px 0 20px; 
+ } 
+ .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 10px;
+ }
+.icons img {
+    width: 45px;
+    border: 1px solid rgba(82,82,128,.09);
+    padding: 10px;
+    border-radius: 15px;
+}
+.icons img:hover{
+    background-color: rgba(82,82,128,.09);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.icons p{
+    font-size: 1rem;
+    color: grey;
+    margin-top: 3px;
+}
+.bottom-text p{
+    width: 43%;
+    margin-top: 20px;
+    margin-left: 240px;
+    font-size: 0.9rem;
+    color:grey;
+}
